@@ -1,0 +1,12 @@
+#entete{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 4em;
+    width: auto;
+}
+nav ul li img{
+    height: 4em;
+    width: auto;
+}
