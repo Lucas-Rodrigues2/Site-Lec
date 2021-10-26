@@ -1,4 +1,48 @@
+#caitlyn ,#ekko ,#ezreal ,#graves ,#leesin ,#lucian ,#thresh ,#vayne{
+    height: 420px;
+    width: 640px;
+}
+.champions{
+    display: flex;
+    animation-duration: 60s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+#caroussel{
+    width: 640px;
+    overflow: hidden;
+    border: 1px solid #333333;
+}
+@keyframes mesImages {
+    0%{
+        transform: translateX(0);
+    }
+    12.5%{
+        transform: translateX(-640px);
+    }
+    25%{
+        transform: translateX(-1280px);
+    }
+    37.5%{
+        transform: translateX(-1920px);
+    }
+    50%{
+        transform: translateX(-2560px);
+    }
+    62.5%{
+        transform: translateX(-3200px);
+    }
+    75%{
+        transform: translateX(-3840px);
+    }
+    87.5%{
+        transform: translateX(-4480px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 
+}
 #ligne_du_haut,#ligne_du_bas{
     display: flex;
     flex-direction: row;
