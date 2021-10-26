@@ -1,0 +1,35 @@
+#ligne_du_haut{
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+#ligne_du_bas{
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+body{
+    background: linear-gradient(70deg, #0C063F, #000000);
+
+}
+#entete{
+    background-image: image("image/");
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li img{
+    height: 4em;
+    width: auto;
+}
+
+#imgvitality{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#carte{
+    height: 800px;
+    width: 1800px;
+}
