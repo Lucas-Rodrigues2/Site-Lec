@@ -12,6 +12,10 @@
     width: 640px;
     overflow: hidden;
     border: 1px solid #333333;
+    float: right;
+    margin-top: 70px;
+    
+    
 }
 @keyframes mesImages {
     0%{
