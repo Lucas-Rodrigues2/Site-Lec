@@ -37,6 +37,7 @@ nav ul li img{
 
 #joueur{
     background-image: url(../image/maplol.png);
-    background-size: auto 100%;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
     
 }
