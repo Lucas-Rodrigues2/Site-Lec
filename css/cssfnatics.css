@@ -39,29 +39,37 @@ nav ul li img{
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-#mapInteractif
-{
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-#carte{
-    height: 800px;
-    width: 1800px;
-}
-#map
-{
-    display: flex;
-    position: relative;
-}
 #joueur
 {
-    display: flex;
-    position:absolute;
-    list-style-type: none;
-    top: 0em;
-    left: 0em;
-    flex-direction: column;
-    justify-content: center;
+    background-image: url(../image/maplol.png);
+    background-size: 1800px 800px;
+    background-repeat: no-repeat;
+    list-style: none;
+}
+
+#adam
+{
+    top: 8em;
+    left: 27em;
+    height: 4em;
+    width; auto:
+}
+#bwipo
+{
+    top: 16em;
+    left: 40em;
+}
+#nisqy
+{
+
+}
+#upset
+{
+    top: 38em;
+    left: 90em;
+}
+#hylissang
+{
+    top: 40em;
+    left: 86em;
 }
