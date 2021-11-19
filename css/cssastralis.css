@@ -64,31 +64,38 @@ ul#players li {
 }
 
 /* position players */
+
+/* coach */
 li#aod {
     bottom: 3%;
     left: 0;
 }
 
+/* support */
 li#jeskla {
     bottom: 15%;
     right: 21%;
 }
 
+/* middle */
 li#magi_felix {
     top: 42%;
     left: 47%;
 }
 
+/* adc */
 li#promisq {
     bottom: 19%;
     right: 16%;
 }
 
+/* top */
 li#white_knight {
     top: 15%;
     left: 20%;
 }
 
+/* jungler */
 li#zanzarah {
     top: 28%;
     left: 33%;

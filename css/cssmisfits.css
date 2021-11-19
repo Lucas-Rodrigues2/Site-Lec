@@ -1,35 +1,97 @@
-#ligne_du_haut{
-    border-top: 2px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
-}
-
-#ligne_du_bas{
-    border-bottom: 2px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
-}
-
-body{
+body {
     background: linear-gradient(70deg, #0C063F, #000000);
-
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 auto;
 }
-#entete{
-    background-image: image("image/");
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 17vh;
+    margin-top: 1em;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul#teams {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-nav ul li img{
-    height: 4em;
-    width: auto;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
 }
 
-#imgmisfits{
-    border: 1px solid rgba(255, 255, 255, 0.5);
+nav ul li {
+    width: 8%;
+    height: 70%;
 }
-#carte{
-    height: 800px;
-    width: 1800px;
+
+li img {
+    width: auto;
+    height: 5em;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 79vh;
+}
+
+main ul#players {
+    list-style-type: none;
+    background-image: url(../image/maplol.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+ul#players li {
+    position: absolute;
+    width: 5em;
+    height: 4em;
+}
+
+/* position players */
+
+
+/* support */
+li#kobbe {
+    bottom: 15%;
+    right: 21%;
+}
+
+/* middle */
+li#vetheo {
+    top: 42%;
+    left: 47%;
+}
+
+/* adc */
+li#vander {
+    bottom: 19%;
+    right: 16%;
+}
+
+/* top */
+li#hirit {
+    top: 15%;
+    left: 20%;
+}
+
+/* jungler */
+li#razork {
+    top: 28%;
+    left: 33%;
 }
